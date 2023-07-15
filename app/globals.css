@@ -12,6 +12,7 @@
 
 body {
   font-family: Inter;
+  background-color: rgb(100, 116, 139);
 }
 
 .flexCenter {
@@ -68,11 +69,11 @@ body {
 
 /* Project Actions */
 .edit-action_btn {
-  @apply p-3 text-gray-100 bg-light-white-400 rounded-lg text-sm font-medium;
+  @apply p-3 text-black bg-light-white-400 rounded-lg text-sm font-medium;
 }
 
 .delete-action_btn {
-  @apply p-3 text-gray-100 hover:bg-red-600 rounded-lg text-sm font-medium;
+  @apply p-3 text-black hover:bg-red-600 rounded-lg text-sm font-medium;
 }
 
 /* Related Project Card */
@@ -103,7 +104,7 @@ body {
 
 /* Footer */
 .footer {
-  @apply flex-col paddings w-full gap-20 bg-light-white;
+  @apply flex-col paddings w-full gap-20 bg-slate-700;
 }
 
 .footer_copyright {
@@ -125,17 +126,17 @@ body {
 }
 
 .modal_wrapper {
-  @apply flex justify-start items-center flex-col absolute h-[95%] w-full bottom-0 bg-white rounded-t-3xl lg:px-40 px-8 pt-14 pb-72 overflow-auto;
+  @apply flex justify-start items-center flex-col absolute h-[95%] w-full bottom-0 bg-slate-500 rounded-t-3xl lg:px-40 px-8 pt-14 pb-72 overflow-auto;
 }
 
 /* Navbar */
 .navbar {
-  @apply py-5 px-8 border-b border-nav-border gap-4;
+  @apply py-5 px-8 border-b border-nav-border gap-4 bg-slate-700;
 }
 
 /* Profile Menu */
 .profile_menu-items {
-  @apply flex-col absolute right-1/2 translate-x-1/2 mt-3 p-7 sm:min-w-[300px] min-w-max rounded-xl bg-white border border-nav-border shadow-menu;
+  @apply flex-col absolute right-1/2 translate-x-1/2 mt-3 p-7 sm:min-w-[300px] min-w-max rounded-xl bg-slate-600 border border-nav-border shadow-menu;
 }
 
 /* Profile Card */
@@ -153,7 +154,7 @@ body {
 }
 
 .form_image-label {
-  @apply z-10 text-center w-full h-full p-20 text-gray-100 border-2 border-gray-50 border-dashed;
+  @apply z-10 text-center w-full h-full p-20 text-black border-2 border-gray-50 border-dashed;
 }
 
 .form_image-input {
@@ -163,4 +164,9 @@ body {
 /* Profile Projects */
 .profile_projects {
   @apply grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 mt-5;
+}
+
+/* Sections */
+section {
+  @apply bg-slate-500;
 }

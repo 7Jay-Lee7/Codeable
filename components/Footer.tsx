@@ -26,9 +26,9 @@ const Footer = () => (
     <div className="flex flex-col gap-12 w-full">
       <div className="flex items-start flex-col">
         <Image
-          src="/logo-bright.png"
-          width={100}
-          height={25}
+          src="/Codeable.png"
+          width={150}
+          height={70}
           alt="Logo again"
         />
 

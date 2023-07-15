@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'nav-border': '#EBEAEA',
+        'nav-border': '#A3A8A8 ',
         'light-white': '#FAFAFB',
         'light-white-100': '#F1F4F5',
         'light-white-200': '#d7d7d7',
@@ -18,7 +18,7 @@ module.exports = {
         gray: '#4D4A4A',
         'gray-100': '#3d3d4e',
         'black-100': '#252525',
-        'primary-purple': '#9747FF',
+        'primary-maroon': '#800000',
         'gray-50': '#D9D9D9',
       },
       boxShadow: {
